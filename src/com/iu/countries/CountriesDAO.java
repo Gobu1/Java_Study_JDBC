@@ -14,7 +14,7 @@ public class CountriesDAO
 		CountriesDTO countriesDTO = null;
 		Connection con = DBConnector.getConnection();
 		
-		String sql = "SELECT * FROM COUNTRIES WHERE REGION_ID=?";
+		String sql = "SELECT * FROM COUNTRIES WHERE COUNTRY_ID=?";
 		
 		PreparedStatement st = con.prepareStatement(sql);
 		
