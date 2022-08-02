@@ -23,6 +23,7 @@ public class TestMain
 		EmployeesDAO employeesDAO = new EmployeesDAO();
 		EmployeesView employeesView = new EmployeesView();
 		try {
+			
 //			ArrayList<RegionsDTO> ar = regionsDAO.getList();
 //			regionsDAO.getDetail(2);
 //			countriesDAO.getList();
